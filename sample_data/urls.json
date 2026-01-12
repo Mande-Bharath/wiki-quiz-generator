@@ -1,0 +1,10 @@
+{
+  "sample_urls": [
+    "https://en.wikipedia.org/wiki/Alan_Turing",
+    "https://en.wikipedia.org/wiki/Machine_learning",
+    "https://en.wikipedia.org/wiki/Albert_Einstein",
+    "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "https://en.wikipedia.org/wiki/Artificial_intelligence"
+  ],
+  "description": "These are example Wikipedia URLs that can be used to test the Wiki Quiz Generator application. Each URL should produce a quiz with 5-10 questions."
+}

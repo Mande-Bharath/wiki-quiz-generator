@@ -1,0 +1,17 @@
+# Vercel serverless function requirements
+# This file is used by Vercel for Python serverless functions
+# It includes all backend dependencies
+
+fastapi==0.104.1
+uvicorn==0.24.0
+sqlalchemy==2.0.45
+pydantic==2.12.5
+pydantic-settings==2.12.0
+langchain>=0.0.300
+langchain-google-genai>=0.0.1
+google-genai>=1.0.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+python-dotenv>=0.21.0
+mangum>=0.17.0
+psycopg2-binary>=2.9.9

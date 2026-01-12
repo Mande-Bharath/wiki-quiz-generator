@@ -1,0 +1,92 @@
+{
+  "id": 1,
+  "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+  "title": "Alan Turing",
+  "article_preview": "Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, and theoretical biologist. Turing is widely considered to be the father of theoretical computer science and artificial intelligence. Born in Maida Vale, London, Turing studied at the University of Cambridge and later at Princeton...",
+  "quiz_data": {
+    "questions": [
+      {
+        "question": "Where was Alan Turing born?",
+        "options": [
+          "Cambridge",
+          "Maida Vale, London",
+          "Oxford",
+          "Manchester"
+        ],
+        "answer": "Maida Vale, London",
+        "difficulty": "easy",
+        "explanation": "According to the article, Alan Turing was born in Maida Vale, London. This is mentioned in the opening biography section."
+      },
+      {
+        "question": "What is Alan Turing primarily known for contributing to?",
+        "options": [
+          "Space exploration",
+          "Quantum physics",
+          "Theoretical computer science and artificial intelligence",
+          "Molecular biology"
+        ],
+        "answer": "Theoretical computer science and artificial intelligence",
+        "difficulty": "easy",
+        "explanation": "The article states that Turing is widely considered to be the father of theoretical computer science and artificial intelligence."
+      },
+      {
+        "question": "What was Alan Turing's main role during World War II?",
+        "options": [
+          "Fighter pilot",
+          "Cryptanalyst working on the Enigma code",
+          "Military general",
+          "Weapons scientist"
+        ],
+        "answer": "Cryptanalyst working on the Enigma code",
+        "difficulty": "medium",
+        "explanation": "Turing's work as a cryptanalyst during WWII, particularly his contributions to breaking the Enigma code at Bletchley Park, was crucial to the war effort."
+      },
+      {
+        "question": "What famous concept is attributed to Alan Turing to test machine intelligence?",
+        "options": [
+          "The Lovelace Test",
+          "The Turing Test",
+          "The Intelligence Measure",
+          "The Computation Theory"
+        ],
+        "answer": "The Turing Test",
+        "difficulty": "medium",
+        "explanation": "The Turing Test, proposed by Turing in 1950, is a measure of machine intelligence. A machine passes the test if it can convince a human that it is also human."
+      },
+      {
+        "question": "Which universities did Alan Turing attend?",
+        "options": [
+          "Oxford and Cambridge",
+          "Cambridge and Princeton",
+          "MIT and Cambridge",
+          "Harvard and Cambridge"
+        ],
+        "answer": "Cambridge and Princeton",
+        "difficulty": "medium",
+        "explanation": "The article mentions that Turing studied at the University of Cambridge and later at Princeton University."
+      },
+      {
+        "question": "In what field was Alan Turing a pioneering figure besides computer science?",
+        "options": [
+          "Psychology",
+          "Theoretical biology",
+          "Philosophy",
+          "Chemistry"
+        ],
+        "answer": "Theoretical biology",
+        "difficulty": "hard",
+        "explanation": "The article describes Turing as not just a mathematician and computer scientist, but also a theoretical biologist, showing his diverse contributions."
+      }
+    ]
+  },
+  "related_topics": [
+    "Cryptography",
+    "Enigma Machine",
+    "Computer Science",
+    "Artificial Intelligence",
+    "Turing Machine",
+    "Computable Numbers",
+    "World War II"
+  ],
+  "created_at": "2026-01-09T10:30:00Z"
+}

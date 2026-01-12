@@ -1,0 +1,80 @@
+{
+  "id": 2,
+  "url": "https://en.wikipedia.org/wiki/Machine_learning",
+  "title": "Machine Learning",
+  "article_preview": "Machine learning is a subset of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves...",
+  "quiz_data": {
+    "questions": [
+      {
+        "question": "What is machine learning?",
+        "options": [
+          "A type of hardware used in manufacturing",
+          "A subset of artificial intelligence that enables systems to learn from experience without explicit programming",
+          "A programming language",
+          "A traditional statistical method"
+        ],
+        "answer": "A subset of artificial intelligence that enables systems to learn from experience without explicit programming",
+        "difficulty": "easy",
+        "explanation": "According to the article, machine learning is a subset of AI that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
+      },
+      {
+        "question": "What is the primary focus of machine learning?",
+        "options": [
+          "Creating hardware components",
+          "Writing assembly code",
+          "Development of computer programs that can access data and learn from it",
+          "Building physical robots"
+        ],
+        "answer": "Development of computer programs that can access data and learn from it",
+        "difficulty": "easy",
+        "explanation": "Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves, as stated in the article."
+      },
+      {
+        "question": "Which of the following is NOT typically a type of machine learning?",
+        "options": [
+          "Supervised learning",
+          "Unsupervised learning",
+          "Reinforcement learning",
+          "Predetermined learning"
+        ],
+        "answer": "Predetermined learning",
+        "difficulty": "medium",
+        "explanation": "Predetermined learning is not a recognized machine learning paradigm. The main types are supervised, unsupervised, and reinforcement learning."
+      },
+      {
+        "question": "How does machine learning differ from traditional programming?",
+        "options": [
+          "Machine learning requires more code",
+          "Machine learning allows systems to learn from data rather than being explicitly programmed",
+          "Machine learning is slower",
+          "There is no significant difference"
+        ],
+        "answer": "Machine learning allows systems to learn from data rather than being explicitly programmed",
+        "difficulty": "medium",
+        "explanation": "The fundamental difference is that ML systems improve from experience and data, while traditional programming requires explicit instructions for every scenario."
+      },
+      {
+        "question": "What is a common application of machine learning in everyday life?",
+        "options": [
+          "Building bridges",
+          "Email spam filtering",
+          "Manufacturing steel",
+          "Planting crops"
+        ],
+        "answer": "Email spam filtering",
+        "difficulty": "easy",
+        "explanation": "Email spam filtering is a classic application of machine learning, where the system learns to distinguish between spam and legitimate emails."
+      }
+    ]
+  },
+  "related_topics": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Neural Networks",
+    "Data Science",
+    "Pattern Recognition",
+    "Supervised Learning",
+    "Unsupervised Learning"
+  ],
+  "created_at": "2026-01-09T11:15:00Z"
+}

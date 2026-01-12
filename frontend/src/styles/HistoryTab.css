@@ -1,0 +1,145 @@
+.history-tab {
+  width: 100%;
+}
+
+.quizzes-table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.quizzes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quizzes-table thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.quizzes-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.quizzes-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.quizzes-table tbody tr:hover {
+  background-color: var(--background);
+}
+
+.title-cell {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.preview-cell {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.date-cell {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.details-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.details-button:hover {
+  background-color: #059669;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white;
+  border-radius: 8px;
+  color: var(--text-secondary);
+}
+
+.empty-state p:first-child {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  max-width: 900px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.modal-close-button {
+  position: sticky;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 1rem;
+  float: right;
+  color: var(--text-secondary);
+  transition: color 0.3s;
+  z-index: 10;
+}
+
+.modal-close-button:hover {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .quizzes-table {
+    font-size: 0.9rem;
+  }
+
+  .quizzes-table th,
+  .quizzes-table td {
+    padding: 0.75rem;
+  }
+
+  .details-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .modal-content {
+    max-width: 95vw;
+    max-height: 95vh;
+  }
+}
